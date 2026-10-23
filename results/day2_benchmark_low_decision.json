@@ -1,0 +1,29 @@
+{
+  "frac_states_ok_at_100": 0.956,
+  "criterion_100_passes": true,
+  "frac_ok_small": {
+    "10": 0.758,
+    "25": 0.884
+  },
+  "frac_ok_small_by_family": {
+    "10": {
+      "BREAD/BAKERY": 0.7738095238095238,
+      "DAIRY": 0.8363636363636363,
+      "PRODUCE": 0.6646706586826348
+    },
+    "25": {
+      "BREAD/BAKERY": 0.9107142857142857,
+      "DAIRY": 0.9212121212121213,
+      "PRODUCE": 0.8203592814371258
+    }
+  },
+  "full_rollout_affordable": true,
+  "decision": "PLAN B: do not build the surrogate; compare uniform budgets with paired sequential elimination.",
+  "protocol_hash": "1efa0b18cd1078c6",
+  "kind": "benchmark",
+  "cost_ratio": "low",
+  "n_states": 500,
+  "elapsed_s": 55.197848959,
+  "ref_converged_frac": 0.998,
+  "boundary_frac": 0.002
+}

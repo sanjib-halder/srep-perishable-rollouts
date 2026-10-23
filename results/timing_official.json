@@ -1,0 +1,82 @@
+{
+  "mode": "OFFICIAL",
+  "source": "TRANSCRIBED from the author's terminal output (MacBook Air, 10 cores), 19-20 Oct 2026; the author's own results/timing_official.json is the authoritative copy",
+  "budget": {
+    "operational_mode": "nightly",
+    "decision_population_per_cycle": 50000,
+    "cycles_per_day": 1,
+    "permitted_cycle_duration_seconds": 7200,
+    "parallel_workers": 10,
+    "hardware": {
+      "cores": 10,
+      "ram_gb": 24
+    }
+  },
+  "summary": [
+    {
+      "H": 7,
+      "N": 100,
+      "K_mean": 8.365,
+      "wall_mean": 0.001097,
+      "projected_cycle_s": 5.485000000000001,
+      "within_budget": true
+    },
+    {
+      "H": 7,
+      "N": 500,
+      "K_mean": 8.365,
+      "wall_mean": 0.004427,
+      "projected_cycle_s": 22.135,
+      "within_budget": true
+    },
+    {
+      "H": 7,
+      "N": 1000,
+      "K_mean": 8.365,
+      "wall_mean": 0.008692,
+      "projected_cycle_s": 43.46,
+      "within_budget": true
+    },
+    {
+      "H": 7,
+      "N": 5000,
+      "K_mean": 8.365,
+      "wall_mean": 0.043766,
+      "projected_cycle_s": 218.83,
+      "within_budget": true
+    },
+    {
+      "H": 14,
+      "N": 100,
+      "K_mean": 8.365,
+      "wall_mean": 0.002059,
+      "projected_cycle_s": 10.295,
+      "within_budget": true
+    },
+    {
+      "H": 14,
+      "N": 500,
+      "K_mean": 8.365,
+      "wall_mean": 0.008184,
+      "projected_cycle_s": 40.92,
+      "within_budget": true
+    },
+    {
+      "H": 14,
+      "N": 1000,
+      "K_mean": 8.365,
+      "wall_mean": 0.015467,
+      "projected_cycle_s": 77.33500000000001,
+      "within_budget": true
+    },
+    {
+      "H": 14,
+      "N": 5000,
+      "K_mean": 8.365,
+      "wall_mean": 0.075665,
+      "projected_cycle_s": 378.325,
+      "within_budget": true
+    }
+  ],
+  "twin_ms_per_rollout": 0.2
+}

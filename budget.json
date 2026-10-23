@@ -1,0 +1,15 @@
+{
+  "_instructions": "Protocol §2. Fill in EVERY null and the freeze timestamp BEFORE running scripts/benchmark_compute.py in official mode. Do not edit after seeing benchmark output except via a dated amendment.",
+  "frozen_at": null,
+  "operational_mode": null,
+  "decision_population_per_cycle": null,
+  "cycles_per_day": null,
+  "permitted_cycle_duration_seconds": null,
+  "permitted_per_state_latency_seconds": null,
+  "hardware": {"cpu_model": null, "cores": null, "ram_gb": null, "gpu": null},
+  "parallel_workers": null,
+  "included_operations": ["scenario generation", "simulation", "aggregation", "action selection", "feature construction", "data transfer"],
+  "excluded_operations": null,
+  "cost_or_energy_ceiling": null,
+  "operational_justification": null
+}

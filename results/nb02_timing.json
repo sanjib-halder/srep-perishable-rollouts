@@ -1,0 +1,12 @@
+{
+  "decisions": 50000,
+  "N": 1000,
+  "H": 14,
+  "workers": 10,
+  "seconds": [
+    293.3090019226074,
+    286.7419579029083,
+    295.562118768692
+  ],
+  "includes": "problem build + candidate generation + scenario generation + simulation + selection"
+}

@@ -1,0 +1,98 @@
+  25/1000 state-horizons done (18s)
+  50/1000 state-horizons done (30s)
+  75/1000 state-horizons done (46s)
+  100/1000 state-horizons done (63s)
+  125/1000 state-horizons done (79s)
+  150/1000 state-horizons done (101s)
+  175/1000 state-horizons done (121s)
+  200/1000 state-horizons done (138s)
+  225/1000 state-horizons done (151s)
+  250/1000 state-horizons done (171s)
+  275/1000 state-horizons done (188s)
+  300/1000 state-horizons done (206s)
+  325/1000 state-horizons done (222s)
+  350/1000 state-horizons done (245s)
+  375/1000 state-horizons done (260s)
+  400/1000 state-horizons done (279s)
+  425/1000 state-horizons done (294s)
+  450/1000 state-horizons done (303s)
+  475/1000 state-horizons done (314s)
+  500/1000 state-horizons done (329s)
+  525/1000 state-horizons done (368s)
+  550/1000 state-horizons done (406s)
+  575/1000 state-horizons done (448s)
+  600/1000 state-horizons done (493s)
+  625/1000 state-horizons done (534s)
+  650/1000 state-horizons done (577s)
+  675/1000 state-horizons done (619s)
+  700/1000 state-horizons done (658s)
+  725/1000 state-horizons done (702s)
+  750/1000 state-horizons done (738s)
+  775/1000 state-horizons done (765s)
+  800/1000 state-horizons done (793s)
+  825/1000 state-horizons done (837s)
+  850/1000 state-horizons done (874s)
+  875/1000 state-horizons done (908s)
+  900/1000 state-horizons done (939s)
+  925/1000 state-horizons done (976s)
+  950/1000 state-horizons done (1012s)
+  975/1000 state-horizons done (1043s)
+  1000/1000 state-horizons done (1081s)
+ H   method    N  mean_rollouts  p_correct  frac_ok  r_rel_median  r_rel_p95  r_rel_max
+ 7 seq_elim   10         83.060      0.520    0.616      0.000000   0.050078   1.440354
+ 7 seq_elim   25        199.840      0.594    0.712      0.000000   0.036183   1.440354
+ 7 seq_elim   50        345.020      0.664    0.814      0.000000   0.018810   0.189512
+ 7 seq_elim  100        575.110      0.730    0.868      0.000000   0.013458   0.036951
+ 7 seq_elim  250       1101.126      0.776    0.932      0.000000   0.008911   0.039894
+ 7 seq_elim  500       1721.688      0.822    0.946      0.000000   0.005374   0.036951
+ 7 seq_elim 1000       2585.532      0.842    0.956      0.000000   0.004066   0.036951
+ 7  uniform   10         83.060      0.520    0.616      0.000000   0.050078   1.440354
+ 7  uniform   25        207.650      0.592    0.706      0.000000   0.036634   0.189512
+ 7  uniform   50        415.300      0.634    0.766      0.000000   0.026943   0.189512
+ 7  uniform  100        830.600      0.698    0.848      0.000000   0.018387   0.189512
+ 7  uniform  250       2076.500      0.778    0.908      0.000000   0.008893   0.039164
+ 7  uniform  500       4153.000      0.810    0.958      0.000000   0.004257   0.022982
+ 7  uniform 1000       8306.000      0.856    0.970      0.000000   0.002759   0.022982
+14 seq_elim   10         83.060      0.412    0.608      0.001935   0.033198   0.130941
+14 seq_elim   25        203.250      0.472    0.684      0.000282   0.022269   0.053850
+14 seq_elim   50        386.176      0.528    0.756      0.000000   0.014668   0.049707
+14 seq_elim  100        714.766      0.614    0.836      0.000000   0.010488   0.022267
+14 seq_elim  250       1552.524      0.664    0.914      0.000000   0.006922   0.012801
+14 seq_elim  500       2660.274      0.742    0.964      0.000000   0.003635   0.017794
+14 seq_elim 1000       4278.478      0.788    0.972      0.000000   0.003464   0.012248
+14  uniform   10         83.060      0.412    0.608      0.001935   0.033198   0.130941
+14  uniform   25        207.650      0.492    0.692      0.000091   0.020703   0.052601
+14  uniform   50        415.300      0.504    0.716      0.000000   0.017854   0.052601
+14  uniform  100        830.600      0.572    0.794      0.000000   0.012106   0.052601
+14  uniform  250       2076.500      0.610    0.842      0.000000   0.010081   0.024526
+14  uniform  500       4153.000      0.686    0.932      0.000000   0.005607   0.017329
+14  uniform 1000       8306.000      0.742    0.958      0.000000   0.004378   0.009920
+{
+  "frac_states_ok_at_100": 0.794,
+  "criterion_100_passes": false,
+  "frac_ok_small": {
+    "10": 0.608,
+    "25": 0.692
+  },
+  "frac_ok_small_by_family": {
+    "10": {
+      "BREAD/BAKERY": 0.5952380952380952,
+      "DAIRY": 0.6484848484848484,
+      "PRODUCE": 0.5808383233532934
+    },
+    "25": {
+      "BREAD/BAKERY": 0.6904761904761905,
+      "DAIRY": 0.7454545454545455,
+      "PRODUCE": 0.6407185628742516
+    }
+  },
+  "full_rollout_affordable": true,
+  "decision": "PLAN B: do not build the surrogate; compare uniform budgets with paired sequential elimination.",
+  "protocol_hash": "1efa0b18cd1078c6",
+  "kind": "benchmark",
+  "cost_ratio": "high",
+  "n_states": 500,
+  "elapsed_s": 1081.653621927,
+  "ref_converged_frac": 0.783,
+  "boundary_frac": 0.017
+}

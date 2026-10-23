@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+# raw and derived Favorita data (Kaggle terms)
+data/favorita_perishable.pkl
+train.csv
+items.csv
+stores.csv
+holidays_events.csv
+*.7z
