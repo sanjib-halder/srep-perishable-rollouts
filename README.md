@@ -1,9 +1,8 @@
-# How many simulations does a perishable replenishment decision need?
+# Rollout Budgets for Perishable Replenishment: Uniform versus Adaptive Allocation?
 
 Code, decision states and results for
 
-> S. Halder. *How Many Simulations Does a Perishable Replenishment Decision Need? Uniform and Adaptive
-> Rollout Allocation Across Shelf-Life, Demand and Cost Regimes.* Submitted to WCSC 2027 (Springer LNNS).
+> S. Halder. *Rollout Budgets for Perishable Replenishment: Uniform versus Adaptive Allocation.* Submitted to WCSC 2027 (Springer LNNS).
 
 The study measures how many simulated rollouts per candidate order a daily replenishment decision for
 age-structured perishable inventory needs, and compares uniform allocation, a paired
